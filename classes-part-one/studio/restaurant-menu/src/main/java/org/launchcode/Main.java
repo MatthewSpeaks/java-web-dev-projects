@@ -13,6 +13,6 @@ public class Main {
 
         Menu myMenu = new Menu("Main Menu", myMenuItems, "12/07/2023");
 
-        public void printMenu(myMenu);
+        myMenu.printMenu();
     }
 }

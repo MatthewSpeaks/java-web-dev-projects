@@ -17,8 +17,8 @@ public class Menu {
         this.specials = "$1 beers";
     }
 
-    public void printMenu(Menu aMenu){
-        System.out.println(aMenu);
+    public void printMenu(){
+        System.out.println(this.title);
     }
 
     public String getTitle() {
