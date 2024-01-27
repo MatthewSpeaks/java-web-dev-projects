@@ -39,7 +39,7 @@ public abstract class Ingredient {
 
     @Override
     public String toString() {
-        return "Name: " + name + "\n" +
+        return System.lineSeparator() +"Name: " + name + "\n" +
                 "Cost: $" + cost + "\n" +
                 "Allergens: " + allergens + "\n";
     }
